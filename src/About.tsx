@@ -42,7 +42,7 @@ export function About() {
         <b className={"yellow-bg"}>D</b> occurs <em>elsewhere</em> in the target
         word.
         <br />
-        <strong>(Perhaps more than once. 🤔)</strong>
+        <strong>(Perhaps more than once. 🤔🍆)</strong>
       </p>
       <hr />
       <p>

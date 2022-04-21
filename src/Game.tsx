@@ -339,8 +339,8 @@ function Game(props: GameProps) {
           <button
             onClick={() => {
               const emoji = props.colorBlind
-                ? ["⬛", "🟦", "🟧"]
-                : ["⬛", "🟨", "🟩"];
+                ? ["🙅‍♀️", "🍑", "🍆"]
+                : ["🙅‍♀️", "🍑", "🍆"];
               const score = gameState === GameState.Lost ? "X" : guesses.length;
               share(
                 "Result copied to clipboard!",
