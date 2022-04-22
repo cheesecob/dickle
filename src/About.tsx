@@ -14,7 +14,10 @@ export function About() {
         I think is based on the TV show <i>Lingo</i>.
       </p>
       <p>
-        You get {maxGuesses} tries to guess a target word.
+        It's a lot like wordle, except you only get {maxGuesses} tries, <br /> 
+        and there's only 5 possible letters, but also it doesn't have to be a real word.
+        <br />
+        The letters are P, E, N, I, & S.
         <br />
         After each guess, you get Mastermind-style feedback.
       </p>
@@ -42,7 +45,7 @@ export function About() {
         <b className={"yellow-bg"}>D</b> occurs <em>elsewhere</em> in the target
         word.
         <br />
-        <strong>(Perhaps more than once. 🤔🍆)</strong>
+        <strong>(But NOT more than once. 🤔🍆💦)</strong>
       </p>
       <hr />
       <p>
@@ -71,15 +74,8 @@ export function About() {
         annotation={"Got it!"}
       />
       <p>
-        Report issues{" "}
-        <a href="https://github.com/lynn/hello-wordl/issues">here</a>, or tweet{" "}
-        <a href="https://twitter.com/chordbug">@chordbug</a>.
-      </p>
-      <p>
-        This game will be free and ad-free forever,
-        <br />
-        but you can <a href="https://ko-fi.com/chordbug">buy me a coffee</a> if
-        you'd like.
+
+
       </p>
     </div>
   );

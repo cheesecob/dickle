@@ -31,10 +31,10 @@ interface GameProps {
   keyboardLayout: string;
 }
 
-const targets = targetList.slice(0, targetList.indexOf("murky") + 1); // Words no rarer than this one
-const minLength = 4;
+const targets = targetList //.slice(0, targetList.indexOf("murky") + 1); // Words no rarer than this one
+const minLength = 5;
 const defaultLength = 5;
-const maxLength = 11;
+const maxLength = 5;
 const limitLength = (n: number) =>
   n >= minLength && n <= maxLength ? n : defaultLength;
 
@@ -178,10 +178,8 @@ function Game(props: GameProps) {
         setHint("Too short");
         return;
       }
-      if (!dictionary.includes(currentGuess)) {
-        setHint("Not a valid word");
-        return;
-      }
+      
+
       for (const g of guesses) {
         const c = clue(g, target);
         const feedback = violation(props.difficulty, c, currentGuess);
@@ -350,6 +348,8 @@ function Game(props: GameProps) {
                       clue(guess, target)
                         .map((c) => emoji[c.clue ?? 0])
                         .join("")
+                 
+                     
                     )
                     .join("\n")
               );
