@@ -1,7 +1,7 @@
 {
   "name": "dickle",
   "version": "0.1.0",
-  "homepage": "http://dickle.net/",
+  "homepage": "https://cheesecob.github.io/dickle/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
