@@ -76,7 +76,7 @@ export function About() {
         <a href="https://github.com/lynn/hello-wordl/issues">repo</a>.
       </p>
       <p>
-
+     	Report issues & feedback to richarddixon69@protonmail.com
 
       </p>
     </div>
