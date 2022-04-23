@@ -328,7 +328,7 @@ function Game(props: GameProps) {
       <p>
         <button
           onClick={() => {
-            share("Link copied to clipboard!");
+            share("Link copied to dickboard!");
           }}
         >
           Share a link to this game
@@ -341,7 +341,7 @@ function Game(props: GameProps) {
                 : ["🙅‍♀️", "🍑", "🍆"];
               const score = gameState === GameState.Lost ? "X" : guesses.length;
               share(
-                "Result copied to clipboard!",
+                "Result copied to dickboard!",
                 `${gameName} ${score}/${props.maxGuesses}\n` +
                   guesses
                     .map((guess) =>
