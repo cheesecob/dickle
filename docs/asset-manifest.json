@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dickle/static/css/main.3ba1d3fa.css",
+    "main.js": "/dickle/static/js/main.1c7cc92f.js",
+    "index.html": "/dickle/index.html",
+    "main.3ba1d3fa.css.map": "/dickle/static/css/main.3ba1d3fa.css.map",
+    "main.1c7cc92f.js.map": "/dickle/static/js/main.1c7cc92f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ba1d3fa.css",
+    "static/js/main.1c7cc92f.js"
+  ]
+}
