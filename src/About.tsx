@@ -16,7 +16,7 @@ export function About() {
         It's a lot like wordle, except you only get {maxGuesses} tries, <br /> 
         and there's only 5 possible letters, but also it doesn't have to be a real word.
         <br />
-        The letters are P, E, N, I, & S. 🍆
+        The letters are <strong>P</strong>, <strong>E</strong>, <strong>N</strong>, <strong>I</strong>, & <strong>S</strong>. 🍆
         <br />
         After each guess, you get feedback.
       </p>
