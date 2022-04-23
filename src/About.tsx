@@ -74,6 +74,10 @@ export function About() {
         annotation={"Got it!"}
       />
       <p>
+		The code for this website was built from modifying this {" "}
+        <a href="https://github.com/lynn/hello-wordl/issues">repo</a>.
+      </p>
+      <p>
 
 
       </p>
