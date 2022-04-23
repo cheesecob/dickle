@@ -10,16 +10,15 @@ export function About() {
         <a href="https://www.powerlanguage.co.uk/wordle/">
           <i>Wordle</i>
         </a>{" "}
-        by <a href="https://twitter.com/powerlanguish">powerlanguage</a>, which
-        I think is based on the TV show <i>Lingo</i>.
+        by <a href="https://twitter.com/powerlanguish">powerlanguage</a>.
       </p>
       <p>
         It's a lot like wordle, except you only get {maxGuesses} tries, <br /> 
         and there's only 5 possible letters, but also it doesn't have to be a real word.
         <br />
-        The letters are P, E, N, I, & S.
+        The letters are P, E, N, I, & S. 🍆
         <br />
-        After each guess, you get Mastermind-style feedback.
+        After each guess, you get feedback.
       </p>
       <hr />
       <Row
@@ -33,17 +32,16 @@ export function About() {
         ]}
       />
       <p>
-        <b>W</b> and <b>O</b> aren't in the target word at all.
+        <b>W</b> and <b>O</b> aren't in the target word at all. 🙅‍♀
       </p>
       <p>
-        <b className={"green-bg"}>R</b> is correct! The third letter is{" "}
-        <b className={"green-bg"}>R</b>
+        <b className={"green-bg"}>R</b> is correct! 🍆 The third letter is{" "}
+        <b className={"green-bg"}>R</b> 💦
         .<br />
-        <strong>(There may still be a second R in the word.)</strong>
       </p>
       <p>
         <b className={"yellow-bg"}>D</b> occurs <em>elsewhere</em> in the target
-        word.
+        word. 🍑
         <br />
         <strong>(But NOT more than once. 🤔🍆💦)</strong>
       </p>
